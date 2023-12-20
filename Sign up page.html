@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+   
+    align-items: center;
+    justify-content: center;
+    font-family: cursive ;
+    
+}
+
+.lagend{
+    border: 1px solid rgb(238, 237, 237);
+    font-size: 20px;
+    background-color: #1877f2;
+    color: white;
+}
+.re{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(105, 17, 17);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.re:hover{
+background-color:  rgb(65, 4, 4);;
+cursor: pointer;
+}
+.si{
+    width: 250px;
+    height: 25px;
+    background-color: #00a400 ;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.si:hover{
+background-color: #076807 ;
+cursor: pointer;
+}
+
+body{
+    background-color: #f0f2f5;
+    background-image:
+     /* linear-gradient(rgba(75, 75, 219, 0.267),rgba(0, 255, 255, 0.11), rgba(65, 65, 226, 0.075) ), */
+     url('/SpaceLogin/astronaut-4k-space-9w27dqmc4nrs3xwd.jpg');
+    background-position: center;
+    background-repeat:no-repeat; 
+    background-size: cover;
+
+}
+fieldset{
+    box-shadow: 12px 12px 12px 12px rgba(221, 232, 15, 0.1), 0 8px 16px rgba(235, 125, 15, 0.693);
+    padding: 25px;
+    /* margin-top: 5%; */
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    background-color: rgba(243, 239, 6, 0);
+    height: 80%;
+    width: 60%;
+    border: none ;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    
+}
+input{
+    border: none;
+    border-radius: 4px;
+    box-shadow:  0 0.02px 0.03px rgba(18, 186, 228, 0.1), 0 8px 16px rgba(78, 249, 10, 0.507);
+    font-size: 14px;
+    font-weight: 300;
+}
+div a{
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <form>
+<center>
+    <fieldset>
+        <legend style="font-size: 23px; color: #2eee2e ;" ><u>Create a new account</u> <br><br>
+       ( it will take few minutes ! ) </legend>
+     <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+   <center> <input type="text" class="user" placeholder="First name" autofocus>
+    <input type="text" class="user" placeholder="Last name"> </center><br><br>
+    <center><input type="email" class="user" placeholder="email address"></center><br><br>
+    <center><input type="password" id="pass" placeholder="Create Password"></center><br><br>
+    <center><input type="password" id="pass" placeholder="Confirm Password"></center><br><br>
+    <center> Date of Birth &nbsp;&nbsp;&nbsp;<input type="date"  ></center> <br><br>
+<center><input type="button" class="si" value="Sign up"> </center> <br>
+<center><input type="reset" class="re"> </center><br>
+<div> <a href="/SpaceLogin/Log in page.html"> Already have an account? Click here to Sign in </a> </div>
+    </fieldset>
+    </form>
+</body>
+</html>
